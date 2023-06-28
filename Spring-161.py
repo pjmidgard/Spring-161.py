@@ -165,7 +165,7 @@ class compression:
                                             
                                             counts+=1
                                             if Root==0:
-                                                Root=1
+                                                Root=2
                                             if SQUEAR_OF_ROOT>=68719476736:
                                                 SQUEAR_OF_ROOT=0
                                             if Times_12>=2**26:
