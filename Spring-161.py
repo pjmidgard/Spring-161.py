@@ -413,9 +413,36 @@ class compression:
 
 
                     if i==2:
-                        C=1
 
 
+                        userInput = 0
+
+
+                        while True:
+
+
+                          try:
+
+
+                             userInput = int(name)   
+
+
+                          except ValueError:
+
+
+                             print("Not an integer!")
+
+
+                             continue
+
+
+                          else:
+
+
+                             print("Yes an integer!")
+
+
+                             break
 
 
                             
@@ -707,47 +734,1127 @@ class compression:
 
 
                                 if i==1:
+
+
+                                  
+
+
+
+
+
+                                                                                             
+
+
                                     
+
+
+                                    k1=-2
+
+
+                                    k2=-1
+
+
+                                    X1=1
+
+
                                     
+
+
                                     
-                                    long_file1=len(INFO)
-                                    Times=0
-                                    Count=-1
-                                    Times_count=0
-                                    while Times!=1:
-                                        INFO=INFO[44:46]+INFO[0:44]+INFO[46:]
-                                        long_file=len(INFO)
-                                        Times_count+=1
-                                        #print(long_file)
-                                        if long_file<=8 or Times_count==(2**24)-1:
-                                            Times=1
-                                        Count+=1
-                                        if Count==4:
-                                            Count=0
-                                        C=format(Count,'02b')
+
+
+                                   
+
+
                                     
-                                        if INFO[:2]==C:
-                                            INFO="0"+INFO[2:]
-                                        elif INFO[:2]=="00":
-                                            INFO="10"+INFO[2:]
-                                        else:
-                                            INFO="11"+INFO[2:]
-                                       
-                                    Extract1=1                               
-                                    if Extract1==1:
-                                            
-                                            
-                                        File_information5_17=INFO
+
+
+ 
+
+
+                                    
+
+
+                                    Extract1=0
+
+
+                                    Multiply=1
+
+
+                                    counts=-1
+
+
+                                  
+
+
+                                    Plus=-1
+
+
+                                    Times_12=1
+
+
+                                    University=-1
+
+
+                                    Divide=1  
+
+
+                                    
+
+
+                                    SQUEAR_OF_ROOT=-1
+
+
+                                    Multiply_Times=0
+
+
+
+
+
+                                    while Extract1!=1:
+
+
                                         
-                                        long_1=len(File_information5_17)
-                                        #print(long_1)
-                                        add_bits=""
-                                        count_bits=8-long_1%8
-                                        z=0
-                                        if count_bits!=0:
 
 
-                                                                   if count_bits!=8:
+                                        
+
+
+
+
+
+                                           
+
+
+                                            
+
+
+                                            
+
+
+                                            k1+=1
+
+
+                                            k2+=1
+
+
+                                            
+
+
+                                           
+
+
+                                        
+
+
+                                           
+
+
+                                           
+
+
+                                            
+
+
+                                            
+
+
+                                            #SQUEAR_OF_ROOT+=1
+
+
+                                            #Plus+=1
+
+
+                                    
+
+
+                                            
+
+
+                                            
+
+
+                                            University=int(k2)
+
+
+                                            X2=X1
+
+
+                                            C11="0"+str(((8*X2)+40))+"b"
+
+
+                                            
+
+
+                                            if University>(2**((8*X1)+40)-1):
+
+
+                                                    University=0
+
+
+                                                    k1=-1
+
+
+                                                    k2=0
+
+
+                                                    counts=-1
+
+
+                                                    X1+=1                                          
+
+
+                                            	
+
+
+                                            if X1>44739242:
+
+
+                                                University=0
+
+
+                                                X1=1
+
+
+                                                X2=1
+
+
+                                            
+
+
+                                            University_file=format(University,C11)
+
+
+                                           
+
+
+                                            
+
+
+
+
+
+                                                
+
+
+                                            
+
+
+                                            Divide=int(University_file[0:(X2*8)],2)
+
+
+                                            Times_12=int(University_file[(X2*8):(X2*8)+8],2)
+
+
+                                            Multiply=int(University_file[(X2*8)+8:(X2*8)+16],2)
+
+
+                                            Plus=int(University_file[(X2*8)+16:(X2*8)+24],2)
+
+
+                                            SQUEAR_OF_ROOT=int(University_file[(X2*8)+24:(X2*8)+32],2)
+
+
+                                            Multiply_Times=int(University_file[(X2*8)+32:(X2*8)+40],2)
+
+
+                                            counts+=1
+
+
+                                            if SQUEAR_OF_ROOT>=68719476736:
+
+
+                                                SQUEAR_OF_ROOT=0
+
+
+                                            if Times_12>=2**26:
+
+
+                                                Times_12=1
+
+
+                                              
+
+
+                                             
+
+
+
+
+
+                                           
+
+
+                                            
+
+
+                                            
+
+
+                                            
+
+
+                                            
+
+
+                                            
+
+
+                                             
+
+
+
+
+
+                                            
+
+
+                                            if Divide==0:
+
+
+                                            	Divide=1
+
+
+                                            if Times_12==0:
+
+
+                                                Times_12=1 
+
+
+                                            
+
+
+                                            if Multiply==0:
+
+
+                                                Multiply=1 
+
+
+                                           
+
+
+                                            
+
+
+        
+
+
+                                             
+
+
+                                            
+
+
+                                             
+
+
+                                                                                    
+
+
+                                            
+
+
+                                            
+
+
+                                           
+
+
+                            
+
+
+                                           
+
+
+                                            
+
+
+                                          
+
+
+                                          
+
+
+                                           
+
+
+                                       
+
+
+                                            
+
+
+ 
+
+
+                                            
+
+
+                                            File_information52=""
+
+
+                                            File_information53=""
+
+
+                                            File_information54=""
+
+
+                                            Add_N=""
+
+
+    
+
+
+                                           
+
+
+                                            File_information52=format(SQUEAR_OF_ROOT,'024b')
+
+
+                                            File_information53=format(Multiply,'024b')
+
+
+                                            
+
+
+                                            
+
+
+
+
+
+                                            Add_N=format(Plus,'024b')
+
+
+                                            if   File_information6_Times2==0:
+
+
+                                                File_information54=format(Multiply_Times,'040b')
+
+
+                                                File_information5_2=File_information54
+
+
+                                                
+
+
+                 
+
+
+
+
+
+                                            
+
+
+                                            File_information54=File_information5_2
+
+
+ 
+
+
+                                           
+
+
+                                             
+
+
+                                            
+
+
+                                           
+
+
+                                            
+
+
+                                            
+
+
+                                            
+
+
+                                                
+
+
+                                            
+
+
+                                            #print(B)
+
+
+                                               
+
+
+                                           
+
+
+                                            
+
+
+                                            File_information53=format(Multiply,'024b')                                            
+
+
+                                            
+
+
+                                                                                   
+
+
+                                            
+
+
+                                                                                         
+
+
+                                                
+
+
+                                            File_information5_2=File_information54
+
+
+    
+
+
+                                            
+
+
+                                            File_information5_17=""
+
+
+                                      
+
+
+                                            
+
+
+                                            
+
+
+                                            long_16=len(File_information54)
+
+
+    
+
+
+    
+
+
+                                            add_bits=""
+
+
+    
+
+
+                                            Clear=""
+
+
+    
+
+
+                                            #Extract
+
+
+    
+
+
+                                            INFO10=""
+
+
+                                            Translate_info_Decimal=""
+
+
+                                          
+
+
+                                           
+
+
+                                            Clear=""
+
+
+                                        
+
+
+                                            Number_of_the_file=0
+
+
+                                          
+
+
+    
+
+
+                                            C=1
+
+
+                                         
+
+
+                                            if C==1:
+
+
+                                                if   File_information6_Times2==0:
+
+
+    
+
+
+                                                         
+
+
+    
+
+
+                                                        
+
+
+    
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        long_16=len(File_information54)
+
+
+    
+
+
+                                                        INFO10=File_information52
+
+
+                                                        Deep5 = int(INFO10, 2)
+
+
+                                                       
+
+
+                                                      
+
+
+                                                        
+
+
+                                                        long_16=len(File_information54)
+
+
+                                                        File_information54=File_information5_2
+
+
+                                                        
+
+
+                                                      
+
+
+                                                        
+
+
+                                                        Clear=File_information53
+
+
+                                                        Add_N=Add_N
+
+
+                                                        
+
+
+                                                        T = int(Clear, 2)
+
+
+                                                        Add= int(Add_N, 2)
+
+
+                                                        long_16=len(File_information54)
+
+
+                                                        #print("Deep: ")
+
+
+                                                        #print(Deep7-25)
+
+
+                                                        Times_half_Real=0
+
+
+                                                if   File_information6_Times2>0:
+
+
+                                                        Translate_info_Decimal_2=0
+
+
+                                                        
+
+
+                                                
+
+
+                                                        
+
+
+            
+
+
+                                                if C==1 and Times_12!=0:
+
+
+                                                        File_information54=File_information54
+
+
+                                                        long_16=len(File_information54)
+
+
+                                                       
+
+
+                                                        
+
+
+                                                       
+
+
+                                                        if len (File_information54)!=0:
+
+
+                        
+
+
+                                                                                                    
+
+
+                                                            Number_of_the_file=int(File_information54, 2)
+
+
+                                                                                                     
+
+
+
+
+
+                                                        else:
+
+
+                                                            Number_of_the_file=0
+
+
+                                          
+
+
+                                                        Hole_Number_information=(2**Deep5)-1
+
+
+                                                        Square_of_ROOT=Hole_Number_information
+
+
+                                                
+
+
+                                                
+
+
+                                                                                         
+
+
+                                                        Number_of_the_file=((((Number_of_the_file*Square_of_ROOT)+Plus)//3)*Multiply)//Divide
+
+
+
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        Times_half_Real+=1
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                
+
+
+                                        
+
+
+                                                
+
+
+                                                                                  
+
+
+                                                
+
+
+                                                
+
+
+                                                        
+
+
+                                               
+
+
+
+
+
+                                              
+
+
+                                            #####################################################################################################################################################
+
+
+                                           
+
+
+                                            
+
+
+                                            
+
+
+                                            
+
+
+                                            File_information5_17=bin(Number_of_the_file)[2:]
+
+
+                                             
+
+
+                                            File_information5_2=File_information5_17
+
+
+                                            #print(File_information5_17)
+
+
+                                           
+
+
+    
+
+
+                                            if i==1:
+
+
+                                                Make_togher=""
+
+
+                                                Make_togher=Clear
+
+
+                                                
+
+
+                                                add_bits=""
+
+
+                                                if C==1 and Times_12!=0:
+
+
+                                                        File_information6_Times2=File_information6_Times2+1
+
+
+    
+
+
+                                                long_19=len(File_information5_17)
+
+
+                                                #print(File_information6_Times2)
+
+
+                                                
+
+
+                                                
+
+
+                                                if  File_information6_Times2==Times_12:
+
+
+                                                        File_information6_Times2_1=File_information6_Times2
+
+
+                                                        File_information6_Times2=0
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        if int(INFO,2)==Number_of_the_file:  
+
+
+
+
+
+
+
+
+                                                               if C==1:
+
+
+
+
+
+                                                                       C=1
+
+
+                                                                #print(File_information5_17)
+
+
+                                                if int(INFO,2)==Number_of_the_file and File_information6_Times2_1==Times_12:
+
+
+                                                       long_1=len(File_information5_17)
+
+
+                                                       Time_Real3=bin(long_12)[2:]
+
+
+                                                       T1=len(Time_Real3)
+
+
+                                                       Time_Real4=format(T1,'05b')
+
+
+                                                       long_file=Time_Real4+Time_Real3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                 
+
+
+                                                    
+
+
+                                                       
+
+
+
+
+
+                                                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                       
+
+
+                                                       
+
+
+                                                       C1=bin(X1)[2:]
+
+
+                                                       C5=len(C1)
+
+
+                                                       C2=C5//8
+
+
+                                                       C4=C5%8
+
+
+                                                       if C4!=0:
+
+
+                                                           C3=(C2+1)*8
+
+
+                                                       else:
+
+
+                                                           C3=C2*8
+
+
+                                                       C="0"+str(C3)+"b"
+
+
+                                                       
+
+
+                                                       
+
+
+                                                       Time_Real3=bin(X1)[2:]
+                                                       T1=len(Time_Real3)
+
+
+                                                    
+
+
+                                                       Time_Real1=bin(T1)[2:]
+
+
+                                                       T2=len(Time_Real1)
+
+
+                                                       Time_Real4=format(T2,'05b')
+
+
+                                                       
+
+
+
+
+
+                                                       XN=Time_Real4+Time_Real1+Time_Real3
+
+
+                                                       C1=bin(counts)[2:]
+
+
+                                                       C5=len(C1)
+
+
+                                                       C2=C5//8
+
+
+                                                       C4=C5%8
+
+
+                                                       if C4!=0:
+
+
+                                                           C3=(C2+1)*8
+
+
+                                                       else:
+
+
+                                                           C3=C2*8
+
+
+                                                       C="0"+str(C3)+"b"
+
+
+
+
+
+                                                      
+
+
+                                                       Time_Real3=bin(counts)[2:]
+                                                       T1=len(Time_Real3)
+
+
+                                                   
+
+
+                                                       Time_Real1=bin(T1)[2:]
+
+
+                                                       T2=len(Time_Real1)
+
+
+                                                       Time_Real4=format(T2,'05b')
+
+
+                                                       Counts=Time_Real4+Time_Real1+Time_Real3
+
+
+                                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                       if int(INFO,2)==Number_of_the_file and File_information6_Times2_1==Times_12:
+
+
+
+
+
+
+
+
+                                                               File_information5_17="01"+XN+Counts+long_file
+
+
+                                                               long_1=len(File_information5_17)
+
+
+                                                               add_bits=""
+
+
+                                                               count_bits=8-long_1%8
+
+
+                                                               z=0
+
+
+                                                               if count_bits!=0:
+
+
+
 
 
                                                                        while z<count_bits:
@@ -762,30 +1869,1510 @@ class compression:
 
 
 
-                                    long_file=len(INFO)
-                                    C1=format(Times_count,'024b')
-                                    File_information5_17=C1+add_bits+File_information5_17
-                                    L=len(File_information5_17)
-                                    #print(C1)
-                                    #print(L)
-                                    n=int(File_information5_17, 2)
-                                    width_bits=len(File_information5_17)
-                                    width_bits=(width_bits//8)
-                                    width_bits=str(width_bits)
-                                    width_bits="%0"+width_bits+"x"
-                                    width_bits3=binascii.unhexlify(width_bits % n)
-                                    width_bits2=len(width_bits3)
-                                    #print(width_bits2)
-                                    name_2+=".bin"
-                                    with open(name_2, "wb") as f2:
-                                        f2.write(width_bits3)
-                                    x2 = time()
-                                    x3=x2-x
-                                    xs=float(x3)
-                                    xs=str(xs)
-                                    return xs;
+                                                               File_information5_17=add_bits+File_information5_17
 
 
+                                                               
+
+
+                                                               Extract1=1
+
+
+                                                      
+
+
+
+
+
+
+
+
+                                                    
+
+
+                                                 
+
+
+                                    if Extract1==1:                
+
+
+                                            L=len(File_information5_17)
+
+
+                                            n = int(File_information5_17, 2)
+
+
+                                            width_bits=len(File_information5_17)
+
+
+                                            width_bits=(width_bits//8)*2
+
+
+                                            width_bits=str(width_bits)
+
+
+                                            width_bits="%0"+width_bits+"x"
+
+
+                                            width_bits3=binascii.unhexlify(width_bits % n)
+
+
+                                            width_bits2=len(width_bits3)
+
+
+                                            add_bitszzza=""
+
+
+                                            add_bitszs=""
+
+
+                                            File_information5_2=Clear
+
+
+                                            name=name+"/"
+
+
+                                            name_2=str(counts)
+
+
+                                            ML=len(name_2)
+
+
+                                            if ML<10:
+
+
+                                                M=str(name_2[:ML])
+
+
+                                            else:
+
+
+                                                M=name_2[:10]
+
+
+
+
+
+                                   
+
+
+                                            with open(M, "w") as f6:
+
+
+                                                
+
+
+                                                f6.write(name)
+
+
+
+
+
+                                                
+
+
+                                                
+
+
+                                                    
+
+
+                                                                                   
+
+
+                                                            
+
+
+                                            with open(M, "ab") as f2:
+
+
+
+
+
+                                                
+
+
+                                                f2.write(width_bits3)
+
+
+                                                    
+
+
+                                            
+
+
+                                            x2 = time()
+
+
+                                            x3=x2-x
+
+
+                                            xs=float(x3)
+
+
+                                            xs=str(xs)
+
+
+                                            
+
+
+                                            return xs;
+
+
+                                    		
+
+
+                                if i==2:
+
+
+                                   
+
+
+
+
+
+
+
+
+                                   
+
+
+
+
+
+                                    
+
+
+                                   
+
+
+                   
+
+
+                               
+
+
+                                            
+
+
+                                            
+
+
+                                              
+
+
+
+
+
+                                            
+
+
+                                           
+
+
+                                            
+
+
+                           
+
+
+                       
+
+
+                                                            
+
+
+                                              
+
+
+                              
+
+
+
+
+
+                                 
+
+
+
+
+
+                                    
+
+
+                                 
+
+
+                                    if C==1:
+
+
+                                        
+
+
+                                        if   File_information6_Times2==0:
+
+
+                                            File_information5=INFO
+
+
+                                            #print(INFO)
+
+
+                                           
+
+
+                                        if   File_information6_Times2==0:
+
+
+                                
+
+
+                                                long_16=len(File_information5)
+
+
+                                                
+
+
+                                  
+
+
+                                                ascii_string = ""
+
+
+                                                while File_information5[:8]!="00101111":
+
+
+                                                    a_binary_string=File_information5[:8]
+
+
+                                                    binary_values = a_binary_string. split()
+
+
+                                                    
+
+
+                                                    for binary_value in binary_values:
+
+
+                                                        an_integer = int(binary_value, 2)
+
+
+                                                    ascii_character = str(chr(an_integer))
+
+
+                                                    ascii_string += ascii_character
+
+
+                                                    File_information5=File_information5[8:]
+
+
+                                                    
+
+
+                                                    
+
+
+
+
+
+                                                   
+
+
+                                                
+
+
+                                             
+
+
+                                                File_information5=File_information5[8:]
+
+
+                                                             
+
+
+                                                
+
+
+                                                while File_information5[:1]!="1":
+
+
+                                                    if File_information5[:1]=="0":
+
+
+                                                        File_information5=File_information5[1:]
+
+
+                                                        
+
+
+                                                File_information5=File_information5[1:]
+
+
+                                                
+
+
+                                                #print(File_information5)
+
+
+                                              
+
+
+                                                #print(Extract_info)
+
+
+                                                
+
+
+                                               
+
+
+                                                Random_C=int(File_information5[0:5],2)
+
+
+                                                File_information5=File_information5[5:]
+
+
+                                                Random_C1=int(File_information5[:Random_C],2)
+
+
+                                                File_information5=File_information5[Random_C:]
+
+
+                                                XR=int(File_information5[:Random_C1],2)
+
+
+
+
+
+                                                File_information5=File_information5[Random_C1:]
+
+
+                                                Random_C=int(File_information5[0:5],2)
+
+
+                                                File_information5=File_information5[5:]
+
+
+                                                Random_C1=int(File_information5[:Random_C],2)
+
+
+                                                File_information5=File_information5[Random_C:]
+
+
+                                                Extract_info=int(File_information5[:Random_C1],2)
+
+
+                                                M=str(Extract_info)
+
+
+                                                ML=len(name_2)
+
+
+                                                if ML<10:
+
+
+                                                    M=M[:ML]
+
+
+                                                else:
+
+
+                                                    M=M[:10]
+
+
+                                                if M!=str(name):
+
+
+                                                    print("This is wrong name of file!")
+
+
+                                                    raise SystemExit 
+
+
+                                                
+
+
+                                                File_information5=File_information5[Random_C1:]
+
+
+                                                Random_C=int(File_information5[0:5],2)
+
+
+                                                File_information5=File_information5[5:]
+
+
+                                                long=int(File_information5[:Random_C],2)
+
+
+                                                File_information5=File_information5[Random_C:]                                                      
+
+
+                                                #08122#17#18
+
+
+                                    
+
+
+                                    k1=-2
+
+
+                                    k2=-1
+
+
+                                    X1=1
+
+
+                                   
+
+
+                                    
+
+
+                                   
+
+
+                                    
+
+
+ 
+
+
+                                    
+
+
+                                    Extract1=0
+
+
+                                    Multiply=1
+
+
+                                  
+
+
+                                    Plus=-1
+
+
+                                    Times_12=1
+
+
+                                    University=-1
+
+
+                                    
+
+
+                                    Divide=1  
+
+
+                                    counts=-1
+
+
+                                    SQUEAR_OF_ROOT=-1
+
+
+                                    Multiply_Times=0
+
+
+
+
+
+                                    while Extract1!=1:
+
+
+                                        
+
+
+                                        
+
+
+
+
+
+                                           
+
+
+                                            
+
+
+                                            
+
+
+                                            k1+=1
+
+
+                                            k2+=1
+
+
+                                            
+
+
+                                           
+
+
+                                        
+
+
+                                           
+
+
+                                           
+
+
+                                            
+
+
+                                            
+
+
+                                            #SQUEAR_OF_ROOT+=1
+
+
+                                            #Plus+=1
+
+
+                                    
+
+
+                                            
+
+
+                                            
+
+
+                                            University=int(k2)
+
+
+                                            X2=X1
+
+
+                                            C11="0"+str(((8*X2)+40))+"b"
+
+
+                                            
+
+
+                                            if University>(2**((8*X1)+40)-1):
+
+
+                                                    University=0
+
+
+                                                    k1=-1
+
+
+                                                    k2=0
+
+
+                                                    counts=-1
+
+
+                                                    
+
+
+                                                    X1+=1                                          
+
+
+                                            	
+
+
+                                            if X1>44739242:
+
+
+                                                University=0
+
+
+                                                X1=1
+
+
+                                                X2=1
+
+
+                                            
+
+
+                                            University_file=format(University,C11)
+
+
+                                           
+
+
+                                            
+
+
+
+
+
+                                                
+
+
+                                            
+
+
+                                            Divide=int(University_file[0:(X2*8)],2)
+
+
+                                            Times_12=int(University_file[(X2*8):(X2*8)+8],2)
+
+
+                                            Multiply=int(University_file[(X2*8)+8:(X2*8)+16],2)
+
+
+                                            Plus=int(University_file[(X2*8)+16:(X2*8)+24],2)
+
+
+                                            SQUEAR_OF_ROOT=int(University_file[(X2*8)+24:(X2*8)+32],2)
+
+
+                                            Multiply_Times=int(University_file[(X2*8)+32:(X2*8)+40],2)
+
+
+                                            counts+=1
+
+
+                                            #print(counts)
+
+
+                                            if SQUEAR_OF_ROOT>=68719476736:
+
+
+                                                SQUEAR_OF_ROOT=0
+
+
+                                            if Times_12>=2**26:
+
+
+                                                Times_12=1
+
+
+                                                
+
+
+                                     
+
+
+
+
+
+                                           
+
+
+                                            
+
+
+                                            
+
+
+                                            
+
+
+                                            
+
+
+                                            
+
+
+                                             
+
+
+
+
+
+                                            
+
+
+                                            if Divide==0:
+
+
+                                            	Divide=1
+
+
+                                            if Times_12==0:
+
+
+                                                Times_12=1 
+
+
+                                            
+
+
+                                            if Multiply==0:
+
+
+                                                Multiply=1 
+
+
+                                           
+
+
+                                            
+
+
+        
+
+
+                                             
+
+
+                                            
+
+
+                                             
+
+
+                                                                                    
+
+
+                                            
+
+
+                                            
+
+
+                                           
+
+
+                            
+
+
+                                           
+
+
+                                            
+
+
+                                          
+
+
+                                          
+
+
+                                           
+
+
+                                       
+
+
+                                            
+
+
+ 
+
+
+                                            
+
+
+                                            File_information52=""
+
+
+                                            File_information53=""
+
+
+                                            File_information54=""
+
+
+                                            Add_N=""
+
+
+    
+
+
+                                           
+
+
+                                            File_information52=format(SQUEAR_OF_ROOT,'024b')
+
+
+                                            File_information53=format(Multiply,'024b')
+
+
+                                            
+
+
+                                            
+
+
+
+
+
+                                            Add_N=format(Plus,'024b')
+
+
+                                            if   File_information6_Times2==0:
+
+
+                                                File_information54=format(Multiply_Times,'040b')
+
+
+                                                File_information5_2=File_information54
+
+
+                                                
+
+
+                 
+
+
+
+
+
+                                            
+
+
+                                            File_information54=File_information5_2
+
+
+ 
+
+
+                                           
+
+
+                                             
+
+
+                                            
+
+
+                                           
+
+
+                                            
+
+
+                                            
+
+
+                                            
+
+
+                                                
+
+
+                                            
+
+
+                                            #print(B)
+
+
+                                               
+
+
+                                           
+
+
+                                            
+
+
+                                            File_information53=format(Multiply,'024b')                                            
+
+
+                                            
+
+
+                                                                                   
+
+
+                                            
+
+
+                                                                                         
+
+
+                                                
+
+
+                                            File_information5_2=File_information54
+
+
+    
+
+
+                                            
+
+
+                                            File_information5_17=""
+
+
+                                      
+
+
+                                            
+
+
+                                            
+
+
+                                            long_16=len(File_information54)
+
+
+    
+
+
+    
+
+
+                                            add_bits=""
+
+
+    
+
+
+                                            Clear=""
+
+
+    
+
+
+                                            #Extract
+
+
+    
+
+
+                                            INFO10=""
+
+
+                                            Translate_info_Decimal=""
+
+
+                                          
+
+
+                                           
+
+
+                                            Clear=""
+
+
+                                        
+
+
+                                            Number_of_the_file=0
+
+
+                                          
+
+
+    
+
+
+                                            C=1
+
+
+                                         
+
+
+                                            if C==1:
+
+
+                                                if   File_information6_Times2==0:
+
+
+    
+
+
+                                                         
+
+
+    
+
+
+                                                        
+
+
+    
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        long_16=len(File_information54)
+
+
+    
+
+
+                                                        INFO10=File_information52
+
+
+                                                        Deep5 = int(INFO10, 2)
+
+
+                                                       
+
+
+                                                      
+
+
+                                                        
+
+
+                                                        long_16=len(File_information54)
+
+
+                                                        File_information54=File_information5_2
+
+
+                                                        
+
+
+                                                      
+
+
+                                                        
+
+
+                                                        Clear=File_information53
+
+
+                                                        Add_N=Add_N
+
+
+                                                        
+
+
+                                                        T = int(Clear, 2)
+
+
+                                                        Add= int(Add_N, 2)
+
+
+                                                        long_16=len(File_information54)
+
+
+                                                        #print("Deep: ")
+
+
+                                                        #print(Deep7-25)
+
+
+                                                        Times_half_Real=0
+
+
+                                                if   File_information6_Times2>0:
+
+
+                                                        Translate_info_Decimal_2=0
+
+
+                                                        
+
+
+                                                
+
+
+                                                        
+
+
+            
+
+
+                                                if C==1 and Times_12!=0:
+
+
+                                                        File_information54=File_information54
+
+
+                                                        long_16=len(File_information54)
+
+
+                                                       
+
+
+                                                        
+
+
+                                                       
+
+
+                                                        if len (File_information54)!=0:
+
+
+                        
+
+
+                                                                                                    
+
+
+                                                            Number_of_the_file=int(File_information54, 2)
+
+
+                                                                                                     
+
+
+
+
+
+                                                        else:
+
+
+                                                            Number_of_the_file=0
+
+
+                                          
+
+
+                                                        Hole_Number_information=(2**Deep5)-1
+
+
+                                                        Square_of_ROOT=Hole_Number_information
+
+
+                                                
+
+
+                                                
+
+
+                                                                                         
+
+
+                                                        Number_of_the_file=((((Number_of_the_file*Square_of_ROOT)+Plus)//3)*Multiply)//Divide
+
+
+
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        Times_half_Real+=1
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                
+
+
+                                        
+
+
+                                                
+
+
+                                                                                  
+
+
+                                                
+
+
+                                                
+
+
+                                                        
+
+
+                                               
+
+
+
+
+
+                                              
+
+
+                                            #####################################################################################################################################################
+
+
+                                           
+
+
+                                            
+
+
+                                            
+
+
+                                            
+
+
+                                            File_information5_17=bin(Number_of_the_file)[2:]
+
+
+                                             
+
+
+                                            File_information5_2=File_information5_17
+
+
+                                            #print(File_information5_17)
+
+
+                                           
+
+
+    
+
+
+                                            if i==2:
+
+
+                                                Make_togher=""
+
+
+                                                Make_togher=Clear
+
+
+                                                
+
+
+                                                add_bits=""
+
+
+                                                if C==1 and Times_12!=0:
+
+
+                                                        File_information6_Times2=File_information6_Times2+1
+
+
+    
+
+
+                                                long_19=len(File_information5_17)
+
+
+                                                #print(File_information6_Times2)
+
+
+                                                
+
+
+                                                
+
+
+                                                if  File_information6_Times2==Times_12:
+
+
+                                                        File_information6_Times2_1=File_information6_Times2
+
+
+                                                        File_information6_Times2=0
+
+
+                                                        if int(INFO,2)==Number_of_the_file:  
+
+
+
+
+
+
+
+
+                                                               if C==1:
+
+
+
+
+
+                                                                       C=1
+
+
+                                                                #print(File_information5_17)
+
+
+                                                if Extract_info==counts and File_information6_Times2_1==Times_12 and X1==XR:
+
+
+                                                       long_1=len(File_information5_17)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                 
+
+
+                                                    
+
+
+                                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                       if Extract_info==counts and File_information6_Times2_1==Times_12 and X1==XR:
+
+
+             
+
+
+
+
+
+
+
+
+                                                               
+
+
+                                                               CN="0"+str(long)+"b"
+
+
+                                                               File_information5_17=format(Number_of_the_file,CN)
+
+
+
+
+
+                                                               Extract1=1
+
+
+                                                    
+
+
+                                                 
+
+
+                                    if Extract1==1:                
+
+
+                                            L=len(File_information5_17)
+
+
+                                            n = int(File_information5_17, 2)
+
+
+                                            width_bits=len(File_information5_17)
+
+
+                                            width_bits=(width_bits//8)*2
+
+
+                                            width_bits=str(width_bits)
+
+
+                                            width_bits="%0"+width_bits+"x"
+
+
+                                            width_bits3=binascii.unhexlify(width_bits % n)
+
+
+                                            width_bits2=len(width_bits3)
+
+
+                                            add_bitszzza=""
+
+
+                                            add_bitszs=""
+
+
+                                            File_information5_2=Clear
+
+
+                                          
+
+
+                    
+
+
+                                           
+
+
+                                             
+
+
+                                            
+
+
+                                  
+
+
+                                                            
+
+
+                                            with open(ascii_string, "wb") as f2:
+
+
+
+
+
+                                                
+
+
+                                                f2.write(width_bits3)
+
+
+                                                    
+
+
+                                            
+
+
+                                            x2 = time()
+
+
+                                            x3=x2-x
+
+
+                                            xs=float(x3)
+
+
+                                            xs=str(xs)
+
+
+                                            
+
+
+                                            return xs;
 
 
    
